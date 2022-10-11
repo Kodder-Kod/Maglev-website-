@@ -50,14 +50,7 @@ const data = [
         demo: 'https://faceook.com'
 
     },
-    {
-        id: 6,
-        image: Pic6,
-        titile: 'the title to be',
-        github: 'https:github.com',
-        demo: 'https://faceook.com'
 
-    },
 
 
 ]
