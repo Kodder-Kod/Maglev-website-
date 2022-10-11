@@ -1,0 +1,123 @@
+.about-section{
+    height:550px;
+}
+
+
+.abt{
+    top:5%;
+    background-color:rgb(0,0,100); 
+    height:560px;
+}
+
+
+.about{
+    position:relative;
+    text-align:center;
+    color :white;
+    top:5%;   
+}
+
+.about h1{
+    font-size:40px;
+    position:relative;
+ 
+    
+}
+  
+.about h3{
+    font-size:15px;
+    color:#1e90ff;
+}
+
+.about_container{
+
+    display:grid;
+    grid-template-columns:35% 50%;
+    gap :15%;
+    padding:4rem;
+} 
+
+.about_me{
+
+    position:relative;
+    top:0%;
+    width:100%;
+    border-radius:2rem;
+
+}
+
+.about_me-image{
+    position:relative;
+    top:0%;
+    left:20%;
+    border-radius:2rem;
+    overflow:hidden;
+    height:95%;
+    width:95%
+
+   /* transform:rotate(10deg);
+    transition:var(--transition);*/
+}
+
+
+.about_me-image:hover{
+    transform:rotate(0);
+}
+.about_cards{
+
+    display:grid;
+    grid-template-columns:repeat(3, 150px);
+    gap:1.5rem;
+}
+
+.about_card{    
+    position:relative;
+    top:10%;
+    background:var(--color-bg-variant);
+    border:1px solid gold;
+
+    border-radius:1rem;
+    padding :2rem;
+    text-align:center;
+    transition:var(--transition);
+      
+}
+
+
+.about_card:hover{
+    background:transparent;
+  
+    box-shadow:0 1rem 1rem gold;
+    cursor:default;
+ 
+}
+.about_icon{
+    color:white;
+    font-size:4rem;
+ 
+    margin-bottom:1rem;
+
+}
+.about_card h5{
+    font-size:0.95rem;
+    color:gold;
+
+}
+
+
+.about_card small{
+    font-size:0.7rem;
+    color : white;
+}
+
+
+
+.about_content p{
+    position:relative;
+    top:5%;
+    font-size:17px;
+    margin:2rem 0 2.6rem;
+    color :white;
+}
+
+

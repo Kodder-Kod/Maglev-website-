@@ -1,0 +1,57 @@
+.nav{
+
+background:transparent;
+width:max-content;
+padding:0rem 16.5rem;
+position:fixed;
+top:0%;
+right:0%;
+transform:transalte(-90%);
+display:flex;
+gap:5rem;
+
+
+}
+
+.nav.active{ 
+    background:rgb(40,40,40);
+    display:flex;
+  
+}
+
+.nav.active a{
+   
+    color:white;
+    background:transparent;
+   
+
+    :hover{
+        color:gold;
+    }
+
+}
+
+.nav a{
+    position:relative;
+    top:30%;
+    left:450px;
+ 
+    border-radius:20%;
+    color:white;
+    background:black;
+}
+
+.nav a:hover{
+    color:gold;
+}
+
+.nav_pic{
+
+   
+  
+    overflow:hidden;
+    height:90%;
+    width:5%;
+   
+}
+
